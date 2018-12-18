@@ -1,0 +1,103 @@
+
+/*Lista del menú*/
+body {
+    background-color: #dddddd;
+    font-family: times new roman;
+    margin: 0;
+}
+.cabecera {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.degradado {
+background: -webkit-linear-gradient(left, black, blue ); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right,  blue, black ); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, blue, black ); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, blue, black, black, blue ); /* Standard syntax */
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+    padding: 15px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 20px
+
+} 
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: black;
+}
+
+.menu .active {
+    background-color: red;
+}
+
+.cuerpo{
+  padding-top: 200px;
+}
+
+.izquierda {
+  width: 65%;
+  float: left;
+  padding: 20px;
+}
+ 
+.derecha {
+  width: 20%;
+  float: right;
+  padding: 1rem;
+  text-align: center;
+}
+.derecha p{
+  text-align: center;
+}
+
+.secciones { 
+  margin: 5px;
+  padding: 5px;
+}
+
+.post{
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  margin: 10px;
+  padding: 10px;
+}
+p {
+
+  text-align: justify;
+}
+
+#contenido{
+  clear:both;
+}
+
+
+
